@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "inc/alloc64.h"
+#include "src/inc/alloc64.h"
 
 int main() {
     int *a = (int *)cflloc(sizeof(int));
